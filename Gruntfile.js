@@ -8,10 +8,10 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: ['bower_components/modernizr/modernizr.js',
-              'bower_components/html5shiv/html5shiv.js',
-              'bower_components/fastclick/fastclick.js',
-              'bower_components/jquery/dist/jquery.js'],
+        src: ['src/bower_components/modernizr/modernizr.js',
+              'src/bower_components/html5shiv/html5shiv.js',
+              'src/bower_components/fastclick/fastclick.js',
+              'src/bower_components/jquery/dist/jquery.js'],
         dest: 'build/assets/js/global.min.js'
       }
     },
